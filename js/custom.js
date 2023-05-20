@@ -11,3 +11,13 @@ function handleInput () {
 }
 
 textArea.addEventListener('input', handleInput);
+
+
+$('.slider-main').slick({
+    infinite: true,
+    autoplay: true,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false
+  });
